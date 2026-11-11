@@ -1,0 +1,1 @@
+{"name":"als-experiment","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js","start":"node server.js","start:local":"python -m http.server 8000 --bind 127.0.0.1"}}

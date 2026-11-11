@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="dark"><title>FRAME · 국내 영화</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header><a href="#" id="brand">FRAME<span class="brand-dot">.</span></a><span>국내 영화</span><span id="folder-badge">참여 안내</span></header>
+  <main id="main"></main>
+  <section id="stage" hidden aria-label="실험 진행 화면">
+    <video id="video" muted playsinline preload="auto" disablepictureinpicture></video>
+    <div id="countdown" aria-live="polite"></div>
+    <button id="stop-study" type="button">실험 중단 · Esc</button>
+  </section>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

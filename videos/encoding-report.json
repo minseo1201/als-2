@@ -1,0 +1,34 @@
+[
+  {
+    "file": "ALS_30_patterns_3s_pattern_3s_black.mp4",
+    "codec": "H.264 High / yuv420p",
+    "encoder": "libx264 CRF 10",
+    "source_sha256": "b3b008f9a6e1ae51e683f4da98ecc4959798612ff4312f9a5d28e4541b02ed70",
+    "web_sha256": "37ce903e89034ac6103ef71ed0923ca6fb7e12819186f803ec067463dc05ca56",
+    "frames": 1800,
+    "fps": 10,
+    "duration_s": 180.0,
+    "maximum_decoded_channel_difference": 3,
+    "mean_absolute_decoded_channel_difference": 0.0006712106963734526,
+    "brightness_transition_frames_preserved": true,
+    "source_bytes": 2656166,
+    "web_bytes": 151019,
+    "note": "Full decoded frame comparisons performed. Not pixel-lossless. User source files unchanged."
+  },
+  {
+    "file": "ALS_30_patterns_paper_style.mp4",
+    "codec": "H.264 High / yuv420p",
+    "encoder": "libx264 QP 1",
+    "source_sha256": "7429385379d793fff8e436b38a1b5c20ad2c81a2053ec5d75dcebdb6c8c929ca",
+    "web_sha256": "a8106d593954c40707ec2b93fa8dc088680288511b9aa1d8c745939b1f9a79ee",
+    "frames": 180,
+    "fps": 12,
+    "duration_s": 15.0,
+    "maximum_decoded_channel_difference": 2,
+    "mean_absolute_decoded_channel_difference": 1.0276009516460907e-05,
+    "brightness_transition_frames_preserved": true,
+    "source_bytes": 550811,
+    "web_bytes": 73610,
+    "note": "Full decoded frame comparisons performed. Not pixel-lossless. User source files unchanged."
+  }
+]
